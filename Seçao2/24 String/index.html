@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício String</title>
+
+</head>
+
+<body>
+
+    <script>
+        //                     0123456789
+        const nome = ('Wisley Araújo de Freitas Santos')
+        document.body.innerHTML += `O seu nome é : ${nome} <br/>`
+        document.body.innerHTML += `O seu nome tem :  ${nome.length} letras <br/>`
+        document.body.innerHTML += `A segunda letra do seu nome é:   ${nome.slice(1, 2)}</strong> <br/>`
+        document.body.innerHTML += `Qual o primeiro índice da letra a do seu nome : ${nome.indexOf('a')}</strong> ${nome.indexOf('a')} <br/>`
+        document.body.innerHTML += `Qual o ultimo índice da letra a do seu nome : ${nome.lastIndexOf('a')}</strong <br/>`
+        document.body.innerHTML += `As ultimas 3 letras do seu nome são :  ${nome.slice(-3)}<br/>`
+        document.body.innerHTML += `As palavras do seu nome sao: ${nome.split(' ')}</strong><br/>`
+        document.body.innerHTML += `Seu nome com letras maiúsculas  ${nome.toUpperCase()}</strong><br/>`
+        document.body.innerHTML += `Seu nome com letras minusculas  ${nome.toLowerCase()}</strong><br/>`
+    </script>
+    </strong>
+
+</body>
+
+</html>
