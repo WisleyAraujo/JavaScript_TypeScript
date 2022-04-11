@@ -16,3 +16,5 @@ let pessoa = {
 // const {endereco:{ setor: r = '123', casa}, endereco} = pessoa
 const {nome, ...n /*resto*/} = pessoa
 console.log(nome, n);
+
+let procuraNumero;
