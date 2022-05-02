@@ -75,3 +75,8 @@ form button:active{
     background:rgb(65, 156, 38);
     padding:10px;
 }
+.paragrafo p{
+    text-align:center;
+    border-radius:8px;
+    padding: 8px;
+}
